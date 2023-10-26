@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 900px;
+            width: 400px;
+            border: 1px solid;
+        }
+        .heading{
+            height: 110px;
+            width: 400px;
+            border: 1px solid;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .image{
+            background-image: url(../images/insta.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 70px;
+            width: 200px;
+        }
+
+        .loginform{
+            height: 200px;
+            width: 400px;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            align-items: center;
+        }
+        .box4 input{
+            height: 30px;
+            width: 300px;
+            margin-top: 5px;
+            background-color: #F2F3F5;
+            border: 0.5px solid rgb(158, 157, 157);
+
+        }
+        .btn{
+            padding: 0px;
+            border: none;
+        }
+        .btn input{
+            height: 30px;
+            width: 307px;
+            background-color: #1877F2;
+            border: none;
+            border-radius: 7px;
+            font-size: 14px;
+            font-weight: 600;
+            color: white;
+            margin-top: 10px;
+        }
+        #box2{
+            /* margin: 0px; */
+            margin-top: -40px;
+            text-align: center;
+            color: #cccccc;
+        }
+        button{
+            font-size: 14px;
+        }
+        button i{
+            height: 10px;
+            width: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="login_body">
+            <div class="Box" id="box1">
+                <div class="heading">
+                    <div class="image">
+
+                    </div>
+                </div>
+                <div class="loginform">
+                    <form action="">
+                        <div class="box4" id="child1">
+                            <input type="text" placeholder="Phone number, username, or email">
+                        </div>
+                        <div class="box4" id="child2">
+                            <input type="password" name="" id="" placeholder="password">
+                        </div>
+                        <button class="btn">
+                            <input type="submit" value="Log in">
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="Box" id="box2">
+                <p>--------------&nbsp &nbsp OR &nbsp &nbsp---------------</p>
+            </div>
+            <div class="Box" id="box3">
+                <button>
+                        <span><i class="fa fa-facebook-square"></i></span>
+                        <span>Log in with facebook</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
